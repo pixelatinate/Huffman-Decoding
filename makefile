@@ -1,6 +1,6 @@
 CC = gcc 
 INCLUDES = -I/home/jplank/cs360/include
-CFLAGS = $(INCLUDES) -g -Wall -Wextra -lm -o
+CFLAGS = $(INCLUDES) -g -lm -Wall -Wextra -o
 LIBDIR = /home/jplank/cs360/lib
 LIBS = $(LIBDIR)/libfdr.a 
 
